@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <div>
+    <form id="formulario-de-registro">
+        <div>
+      <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required><br>
+      </div>
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required><br>
+      </div>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+
+        <div>
+        <label for="terminos">Acepto los terminos y condiciones del servicio.</label>
+        <input type="checkbox" id="terminos" name="terminos" required><br>
+      </div>
+        <button type="submit">Registrarme</button>
+    </form>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>

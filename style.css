@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin:  auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+    button {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+Ahora, cuando abras tu página HTML en el navegador, verás que el formulario tiene un aspecto más atractivo con estilos CSS aplicados.
+Recuerda que estos estilos son solo un ejemplo básico. Puedes personalizar los colores, las fuentes y otros estilos para que se adapten a tus preferencias o a los requisitos de diseño de tu proyecto.
+
+
+
+
+
+
+
+button {
+    background-color: #053fff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #024286;
+}
